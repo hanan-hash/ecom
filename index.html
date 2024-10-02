@@ -14,7 +14,7 @@
     <div class="banner">
         <img src="banner.webp" >
     </div>
-    <button id="viewCart">🛒View Cart (0)</button>
+    <button id="viewCart">View Cart (<span id="cartCount">0</span>)</button>
 
     <div class="products">
         <div class="product">
@@ -62,8 +62,10 @@
 
     </div>
 
-    <div id="cartbox" class="box">
-        <div class="box-content">
+   
+
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Your Cart</h2>
             <ul id="cartItems"></ul>
